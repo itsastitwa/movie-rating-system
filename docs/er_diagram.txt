@@ -1,0 +1,26 @@
+ER Diagram (Text Version)
+
+USERS
+-----
+user_id (PK)
+user_name
+email
+
+MOVIES
+-----
+movie_id (PK)
+title
+genre
+release_year
+
+RATINGS
+-------
+rating_id (PK)
+user_id (FK → USERS.user_id)
+movie_id (FK → MOVIES.movie_id)
+rating (1–5)
+rating_date
+
+Relationships:
+- One USER → Many RATINGS
+- One MOVIE → Many RATINGS

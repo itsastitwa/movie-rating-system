@@ -1,0 +1,7 @@
+A simple system to store users, movies, and their ratings. 
+Includes table creation scripts, sample data, analytical queries, and a PL/SQL procedure.
+
+Core Features:
+- Database design with 3 tables
+- Insert & manage sample data
+- Aggregated movie rating analytics
